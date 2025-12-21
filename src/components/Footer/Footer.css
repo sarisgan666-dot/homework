@@ -1,0 +1,158 @@
+.footer {
+  background: #2b2b2b;
+  color: #cfcfcf;
+  padding: 60px 80px;
+  font-family: Arial, sans-serif;
+}
+
+.footer_top {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+  border-bottom: 1px solid #3a3a3a;
+  padding-bottom: 40px;
+}
+
+.footer_col h4 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer_col p {
+  margin: 6px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.footer_col p:hover {
+  color: #fff;
+}
+
+.conteyner_footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footre_logo_text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer_logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.logo_ayykin{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo_circle {
+  width: 40px;
+  height: 40px;
+  background: #b37b4e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer_social svg {
+  font-size: 22px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.list_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_p_text {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.footer_links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #cfcfcf;
+  font-size: 14px;
+}
+
+.footer_links a:hover {
+  color: #fff;
+}
+
+.footer_buttons {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.btn_primary {
+  background: #b37b4e;
+  border: none;
+  padding: 10px 16px;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn_outline {
+  background: transparent;
+  border: 1px solid #b37b4e;
+  color: #b37b4e;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.ollp{
+    display: flex;
+    gap: 40px;
+}
+
+.text1{
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0px;
+vertical-align: middle;
+text-transform: uppercase;
+
+}
+
+
+.text2{
+font-weight: 500;
+font-style: Medium;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0px;
+color: #878B90;
+
+}
+
+.pp_logo{
+font-weight: 500;
+font-style: Medium;
+font-size: 12px;
+line-height: 150%;
+letter-spacing: 0px;
+color: #878B90;
+margin-top: 50px;
+}
