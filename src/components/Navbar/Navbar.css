@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    padding: 10px 5%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.logo { font-size: 22px; color: #a67c52; }
+
+.contact-info span {
+    margin-left: 20px;
+    font-size: 13px;
+    color: #666;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-menu ul { display: flex; list-style: none; }
+.main-menu ul li a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.btn-outline {
+    padding: 8px 15px;
+    border: 1px solid #a67c52;
+    background: none;
+    color: #a67c52;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+.hero {
+    display: flex;
+    height: 500px;
+}
+
+.hero-image { flex: 1.5; position: relative; }
+.hero-image img { width: 100%; height: 100%; object-fit: cover; }
+
+.hero-promo {
+    flex: 1;
+    background-color: #a67c52;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.discount { font-size: 80px; font-weight: bold; }
+
+.btn-main {
+    margin-top: 20px;
+    padding: 12px 40px;
+    background: rgba(255,255,255,0.2);
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    background: white;
+    color: #333;
+    padding: 10px;
+    cursor: pointer;
+}
+.left-arrow { left: 10px; }
+.right-arrow { right: 10px; }
+
+.video-section {
+    padding: 50px 5%;
+    text-align: center;
+}
+
+.video-grid {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.video-card { flex: 1; }
+.video-thumb {
+    position: relative;
+    height: 300px;
+    background: #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.video-thumb img { width: 100%; height: 100%; object-fit: cover; }
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: red;
+    background: white;
+    border-radius: 50%;
+    padding: 0 10px;
+}
+
+.btn-more {
+    margin-top: 30px;
+    padding: 12px 30px;
+    background: #a67c52;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
