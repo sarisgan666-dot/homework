@@ -9,7 +9,7 @@ const Servise = () => {
     <div id="servise">
       <div className="servise-text">
         <h1 className="servise_logo">
-          Живые фотографии наших работ от реальных клиентов 🥰
+          Живые фотографии наших работ от реальных клиентов 
         </h1>
 
         <div className="servise_cards">
