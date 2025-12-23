@@ -14,7 +14,7 @@ const Servise = () => {
 
         <div className="servise_cards">
 
-          {/* CARD 1 */}
+          /* 1 */
           <div className="servise_card">
             <div className="servise_card_content">
               <img id='img_logorasim' src={img1} alt="" />
@@ -53,7 +53,7 @@ const Servise = () => {
             </div>
           </div>
 
-          {/* CARD 2 */}
+          /* 2 */
           <div className="servise_card2">
             <div className="servise_card_content">
               <img id='img_logorasim' src={img2} alt="" />
